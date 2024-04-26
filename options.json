@@ -1,0 +1,6 @@
+{
+  "deploymentType": "workload",
+  "includeBuildToolWrapper": true,
+  "javaVersion": "21",
+  "projectName": "my-serverless-app"
+}
