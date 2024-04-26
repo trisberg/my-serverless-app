@@ -1,0 +1,10 @@
+id: 8ecde32f-b3a1-4d67-b6cc-5c94e97b7f5a
+name: spring-cloud-serverless
+timestamp: 2024-04-26T13:53:02.754036Z
+source: TanzuCLI
+username: risbergt
+options:
+  deploymentType: workload
+  includeBuildToolWrapper: true
+  javaVersion: 17
+  projectName: my-serverless-app

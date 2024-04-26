@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-serverless-app
+  description: Hello Fun
+  tags:
+    - app-accelerator
+    - java
+    - spring
+    - cloud
+    - serverless
+    - tanzu
+  annotations:
+    'backstage.io/kubernetes-label-selector': 'app.kubernetes.io/part-of=my-serverless-app'
+spec:
+  type: service
+  lifecycle: experimental
+  owner: default-team
